@@ -1,5 +1,5 @@
 # SolStat CSV Parser
-[![Dependencies](https://img.shields.io/badge/dependencies-shards-brightgreen.svg)](https://github.com/4eam/tbot/blob/master/shard.yml)
+[![Dependencies](https://img.shields.io/badge/dependencies-shards-brightgreen.svg)](https://github.com/2uo/SolStat-parser/blob/master/shard.yml)
 ![Built with](https://img.shields.io/badge/built%20with-crystal-black.svg)
 
 Crystal shard made for parsing solar statistics CSV
