@@ -1,8 +1,7 @@
 module SolStat::Parser
   class SCSV
-    def initialize(filename)
-      f = File.read(filename).gsub("\"", "")
-      @csv = CSV.new(f, headers: true, strip: true)
+    def initialize(content)
+      @csv = CSV.new(content, headers: true, strip: true)
     end
 
     def each_row
